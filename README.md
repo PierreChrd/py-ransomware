@@ -18,7 +18,7 @@ Cet outil ne peut être utilisé qu'à des fins légales. Les utilisateurs assum
 
 
 ## Utilisation
-1. Lancez le script `ransom.py`sur la machine où vous voulez que les fichiers soient chiffrés.
+1. Lancez le script `ransom.py` à l'aide de la commande `py ransom.py` sur la machine où vous voulez que les fichiers soient chiffrés.
 
 **/!\ ATTENTION /!\\** lors de l'exécution du code, il vous sera demandé un mot de passe (`safeguard password`). 
 Le mot de passe par défaut est **`enter`**.
@@ -31,6 +31,6 @@ if safeguard != 'enter':
     quit()
 ```
 
-2. Sur votre machine, lancer `server.py`.
+2. Sur votre machine, lancer `server.py` à l'aide de la commande `py server.py`.
 
 ##### Développé par Pierre Chaussard.
